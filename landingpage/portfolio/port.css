@@ -1,0 +1,186 @@
+@import url(https://fonts.google.com/share?selection.family=Oswald:wght@200..700);
+
+body{
+    background-color: rgb(37, 5, 153);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background:linear-gradient(to top,rgb(41, 155, 170),rgb(86, 108, 114));
+    height: 200px;
+    width: 100%;
+    #a{
+        position: absolute;
+        left: 5%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    h4{
+        position: absolute;
+        font-size: 25px;
+        top: 70px;
+        left: 30%;
+    }
+}
+ #about{
+    height: 500px;
+    width: 100%;
+    color: white;
+    pre{
+        position: absolute;
+        left: -30px;
+        top: 60%;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    img{
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        height: 400px;
+        width: 300px;
+    }
+    h2{
+        position: absolute;
+        left: 8%;
+        top: 50%;
+    }
+    button{
+        position: absolute;
+        top: 90%;
+        left: 25%;
+        border: none;
+        padding: 20px 50px;
+        background-color: rgb(71, 71, 235);
+        
+    }
+ }
+ #skill{
+      position: absolute;
+      height: 500px;
+      width: 100%;
+      top: 130%;
+      color: white;
+    img{
+        position: relative;
+        left: 150px;
+        height: 400px;
+        width: 300px;
+    }
+    pre{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    h2{
+        position: absolute;
+        left: 53%;
+        top:20%;
+    }
+ }
+ #project{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 200%;
+    color: white;
+    pre{
+        position: absolute;
+        right: 50%;
+        top: 10%;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    img{
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        left: 70%;
+    }
+    h2{
+        position: absolute;
+        left: 6%;
+        top: 3%;
+    }
+    
+    
+ }
+ h3{
+    font-size: 60px;
+    position: absolute;
+    bottom: 90%;
+    color: rgb(238, 174, 96);
+    left: 60px;
+}
+ .im
+  {
+    position: relative;
+    top: 180%;
+    box-sizing: border-box;
+    .column{
+        float: left;
+        width: 30%;
+        padding: 5px 20px;
+    }
+    .row::after{
+        content: "";
+        clear: both;
+        display: table;
+    }  
+  }
+  .contact{
+     position: absolute;
+     top: 350%;
+     height: 60px;
+     left: 10px;
+     pre{
+        position: absolute;
+        left: 10px; 
+        font-size: 20px;
+     }
+     h2{
+        position: relative;
+        bottom: 30%;
+        left: 140px;
+     }
+     p{
+        position: absolute;
+        width: 100%;
+        left: 60%;
+        top: 350%;
+    
+     }
+     img{
+        border-right: 1px solid black;
+        padding: 5px 5px;
+        height: 20px;
+        width: 20px;
+     }
+     #i{
+        position: relative;
+        height: 300px;
+        width: 250px;
+        border-right: none;
+        left: 800px;
+        bottom: 140%;
+     }
+
+  }
+  footer{
+    position: relative;
+    top: 250%;
+    height:200px;
+    width: 100%;
+     background:linear-gradient(to top,rgb(58, 20, 59),rgb(156, 156, 158));
+     pre{
+        text-align: center;
+        color: azure;
+        font-size: larger;
+     }
+     h4{
+        position: relative;
+        text-align: center;
+        
+     }
+  }
