@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(226, 51, 241);
+    border: 10px solid rgb(0, 0, 0);
+    box-shadow: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+h2{
+   position: absolute;
+   top: 20%;
+   left: 39%;
+}
+#calc{
+   position: absolute;
+   left: 40%;
+   top: 30%;
+   background-position: center;
+   background-image: url(bg.jpeg) ;
+   width: 200px;
+   border: 1px solid black;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"]
+{
+   width: 200px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+button{
+    
+   width: calc(25%-5px);
+   padding: 10px;
+   margin: 5px;
+   font-size: 16px;
+   cursor: pointer;
+}

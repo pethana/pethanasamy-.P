@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+
+        <h2>SIMPLE CALCULATOR</h2>
+        
+        <div id="calc">
+            <input type="text" id="dis" readonly>
+            <br>
+            <button onclick="appendTodis('7')">7</button>
+            <button onclick="appendTodis('8')">8</button>
+            <button onclick="appendTodis('9')">9</button>
+            <button onclick="appendTodis('+')">+</button><br>
+            <button onclick="appendTodis('4')">4</button>
+            <button onclick="appendTodis('5')">5</button>
+            <button onclick="appendTodis('6')">6</button>
+            <button onclick="appendTodis('-')">- </button><br>
+            <button onclick="appendTodis('1')">1</button>
+            <button onclick="appendTodis('2')">2</button>
+            <button onclick="appendTodis('3')">3</button>
+            <button onclick="appendTodis('*')">* </button><br>
+            <button onclick="appendTodis('0')">0</button>
+            <button onclick="appendTodis(cal())">=</button>
+            <button onclick="appendTodis('/')">/ </button>
+            <button onclick="cls()">C</button>
+        </div>
+        <script>
+            function cls(){
+                document.getElementById('dis').value = '';
+            }
+            function appendTodis(value)
+            {
+                document.getElementById('dis').value += value;
+            }
+            function cal(){
+                try{
+                    var res = eval(document.getElementById("dis").value);
+                    document.getElementById("dis").value = res;
+
+                }catch (e)
+                {
+                    document.getElementById('dis').value =  'ERROR!'
+                }
+            }
+        </script>
+    </body>
+</html>
